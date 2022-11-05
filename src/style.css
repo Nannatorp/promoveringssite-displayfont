@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  footer {
+    background-image: url("/public/img/waves.svg");
+    background-attachment: fixed;
+    background-size: contain;
+  }
+}
